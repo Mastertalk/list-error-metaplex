@@ -1,5 +1,10 @@
 Message error: TypeError: Cannot set properties of undefined (setting 'files')
 
+
+wallet public key: (hide)
+Saved bundle upload result to cache.
+Computed Bundle range, including 6 file pair(s) totaling 1.535MB.
+
 at getUpdatedManifest (\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:281:28)
     at async processBundleFilePair (a\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:373:28)
     at async processBundleFilePair (\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:363:23)
