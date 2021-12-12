@@ -1,0 +1,18 @@
+Message error: TypeError: Cannot set properties of undefined (setting 'files')
+
+at getUpdatedManifest (\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:281:28)
+    at async processBundleFilePair (a\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:373:28)
+    at async processBundleFilePair (\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:363:23)
+    at async processBundleFilePair (\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:363:23)
+    at async processBundleFilePair (\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:363:23)
+    at async processBundleFilePair (\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:363:23)
+    at async processBundleFilePair (\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:363:23)
+    at async processBundle (\metaplex\js\packages\cli\src\helpers\upload\arweave-bundle.ts:353:11)
+    at async Object.upload (\metaplex\js\packages\cli\src\commands\upload.ts:337:11)
+    at async Command.<anonymous> (\metaplex\js\packages\cli\src\candy-machine-cli.ts:205:7)
+
+Appear when i launch this command line:
+ts-node cli/src/candy-machine-cli.ts upload (your informations collection and key)
+
+
+Statut: Not resolv
